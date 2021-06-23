@@ -29,6 +29,7 @@ html{
 figma, pq é mais facil para dividir por 10 (16px/10 = 1.6rem)*/
 
 body{
+    display: flex;
     height: 100vh;
     background: var(--background);
 }
