@@ -19,6 +19,7 @@ html{
     --grey-dark: #4D5E77;
     --grey-blue: #A1B2CD;
     --grey-light: #E5EAF1;
+    --grey-medium: #eaecf2;
 
     /* 1rem = 16px (User agent) = 100% (User agent)*/
     /* usar rem par ser mais rapido no responsive */
@@ -87,7 +88,7 @@ button:hover, .button:hover{
     filter: brightness(1.2); /* fica mais clarinho */
 }
 
-button > img
+button > img,
 .button > img{
     margin-right: 1rem;
     width: 2rem;
@@ -99,6 +100,22 @@ button.outlined,
     color: var(--blue);
     border: .2rem solid var(--blue);
 }
+
+button.red,
+.button.red{
+    background: var(--red);
+    color: var(--white);
+}
+
+button.grey,
+.button.grey{
+    background: var(--grey-light);
+    color: var(--grey-dark);
+
+}
+
+
+/* Header */
 
 .content header{
     width: 80%;
